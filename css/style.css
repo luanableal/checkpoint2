@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+
+header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(26, 61, 61);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;   
+    padding: 10px;
+}
+
+
+body{
+    background-image: url(../img/RJ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+  }
+
+form{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid rgb(26, 61, 61);
+    border-radius: 10px;
+    max-width: 700px;
+    min-width: 400px;
+
+      
+}
+
+input{
+    transition: all 0.3s ease-in-out;
+    }
+
+input:hover {
+    transform: scale(1.1);
+}
+
+
+.dados_pessoais1 label{
+    display: block;
+    padding: 5px;
+  }
+
+.dados_pessoais2{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.pontos_turisticos{
+    padding:5px;
+}
+
+.pontos_turisticos label{
+    display: block;
+    padding: 10px;
+}
+
+.pontos_turisticos{
+        transition: all 0.3s ease-in-out;
+    }
+.pontos_turisticos:hover{
+    transform: scale(1.1);
+
+}
+
+.interesse label{
+    display: block;
+    padding: 5px;
+  }
+
+
+button{
+    margin: 15px;
+              
+    }
+    
+   button:hover {
+     cursor: pointer;
+}
